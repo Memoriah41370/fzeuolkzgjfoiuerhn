@@ -1,0 +1,53 @@
+ body{
+background-image: linear-gradient(white,grey,black);
+background-size:contain;
+}
+.container{
+margin-top:2.5%;
+margin-right:15%;
+margin-left:15%;
+box-shadow: 1px 1px 12px black;
+border-radius: 25% 10%;
+border:solid;
+border-width: 1px;
+background-color: white;
+}
+.container:hover{
+background: linear-gradient(-70deg, purple, #A35FD6);
+box-shadow: 1px 1px 22px black;
+}
+#Présentation{
+margin-bottom:-3;
+margin:6%;
+}
+#Date{
+float:right;
+margin:3%;
+}
+#objet{
+margin:3%;
+}
+#texte{
+margin:3%;
+}
+#signature{
+margin:3%;
+}
+.navigation{
+background-image:url(images/fond2.jpg);	
+border:solid;
+}
+#P{
+border-left:solid;
+width:10%;
+border-right:solid;
+display:inline-block;
+}
+#P:hover{
+background-image:url(images/fond.jpg);
+box-shadow: 1px 1px 22px black;
+}
+a{
+text-decoration: none;
+color: black;
+}
