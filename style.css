@@ -2,6 +2,10 @@
 background: radial-gradient(white,grey, black);
 background-size:contain;
 }
+a{
+text-decoration: none;
+color: black;
+}
 .container{
 margin-top:2.5%;
 margin-right:15%;
@@ -11,17 +15,13 @@ border:solid;
 border-width: 1px;
 background-color: white;
 }
-.container:hover{
-background: linear-gradient(-70deg, purple, #A35FD6);
-box-shadow: 1px 1px 22px black;
-}
 #Présentation{
 margin-bottom:-3;
 margin:6%;
 }
 #Date{
 float:right;
-margin:3%;
+margin-right: 2%;
 }
 #objet{
 margin:3%;
@@ -32,21 +32,32 @@ margin:3%;
 #signature{
 margin:3%;
 }
-.navigation{
-background-image:url(images/fond2.jpg);	
-border:solid;
-}
 #P{
 border-left:solid;
-width:10%;
 border-right:solid;
+border-color: white;
+border-width:1px;
+width:10%;
 display:inline-block;
+background-color: black;
+position: sticky;
+top:1%;
+z-index: 1;
 }
 #P:hover{
-background-image:url(images/fond.jpg);
 box-shadow: 1px 1px 22px black;
+z-index: 1;
 }
-a{
-text-decoration: none;
-color: black;
+.navigation{
+text-align:center;
+position: sticky;
+top:1%;
+z-index: 1;
+}
+.nav{
+  color:white;
+  text-align: center;
+}
+.blocktext{
+text-align: center;
 }
