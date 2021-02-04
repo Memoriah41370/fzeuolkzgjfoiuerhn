@@ -5,10 +5,16 @@
 		<title>Lettres de Motivation</title>
 	</head>
 	<body>
-	<header>
-		<a href="https://memoriah41370.github.io/de54edz3654z56f4.com/"><div id="L"><p class="nav">Curriculum vitæ</p></div></a>
-		<a href="https://memoriah41370.github.io/HBFUEZidize/"><div id="L"><p class="nav">Accueil</p></div></a>
-	</header>
+	<nav>
+		<ul>
+			<li class="deroulant"><a href="#">Liens externe</a>
+				<ul class="sous">
+					<li><a href="https://memoriah41370.github.io/fzeuolkzgjfoiuerhn/"><p>Lettres de motivation</p></a></li>
+					<li><a href="https://memoriah41370.github.io/HBFUEZidize/"><p>Accueil</p></a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
 	<main class="container">
 		<section id="Présentation">
 			<ul>
@@ -25,21 +31,76 @@
 		<section id="objet">
 			<p>Objet : recherche de stage et/ou alternance au poste de développeur full stack</p>
 		</section>
-		<section id="texte">
-			<ul>
-				<p>Madame,Monsieur</p>
 
-				<p>Actuellement en Licence professionnelle Intégrée Web et Système à l’université de Cergy-Pontoise, je souhaite par la présente vous soumettre mon profil dans le but d’obtenir un stage dans votre entreprise. Celui-ci durera 6 semaines sur la période de mi-mai à mi-juillet 2021. Aussi, je souhaiterai poursuivre mes deux dernières années de mon cursus, en alternance, au sein de votre entrepris de septembre 2021 à juillet 2023.</p>
 
-				<p>Je suis persuadé que ce stage contribuera à̀ affiner les contours de mon projet professionnel. Je souhaiterai donc suivre un développeur full-stack durant mon stage et me former en tant que développeur full-stack durant mon alternance. Cette alternance me permettra de développer mes connaissances et mes compétences professionnelles essentielles à la programmation, la maintenance et à la création de site web. En passant aussi par l’apprentissage et l’approfondissement du web responsive et du développement d’application web.</p>
 
-				<p>En parallèle, j’ai effectué des stages auprès de techniciens de réseau et dans la sécurité informatique qui m’ont permis de cultiver mon intérêt pour l’informatique. Durant mon parcours scolaire, j’ai pu me spécialiser en Informatique et sciences du numérique (ISN) où j’ai eu l’opportunité de présenter des sites web conçus par mon équipe et moi-même. Ces projets ont demandé beaucoup de rigueur pour être effectuer ce qui n’a pas était un problème pour moi.</p>
+		    <button id="togg1">Partie 1</button>
+		    <button id="togg2">Partie 2</button>
+				<button id="togg3">Partie 3</button>
+		    <div id="d1">
+					<p>Madame,Monsieur</p>
 
-				<p>Curieux d’en apprendre plus sur ce métier, ma polyvalence et ma facilité de communication pourront m’aider à m’adapter dans l’entreprise. Je sais tenir compte des opinions et de la vision des autres, et je suis sensible à toutes les opportunités qui s’offrent à moi. Je suis parfaitement à l’aise et je prends du plaisir dans les travaux de groupe et je serai ravi de pouvoir travailler au sein d’une équipe.</p>
+					<p>Actuellement en Licence professionnelle Intégrée Web et Système à l’université de Cergy-Pontoise, je souhaite par la présente vous soumettre mon profil dans le but d’obtenir un stage dans votre entreprise. Celui-ci durera 6 semaines sur la période de mi-mai à mi-juillet 2021. Aussi, je souhaiterai poursuivre mes deux dernières années de mon cursus, en alternance, au sein de votre entrepris de septembre 2021 à juillet 2023.</p>
 
-				<p>Je vous remercie par avance de l’attention que vous porterez à mon profil et reste à votre disposition pour toutes informations complémentaires.</p>
+		    </div>
+		    <div id="d2">
+					<p>Je suis persuadé que ce stage contribuera à̀ affiner les contours de mon projet professionnel. Je souhaiterai donc suivre un développeur full-stack durant mon stage et me former en tant que développeur full-stack durant mon alternance. Cette alternance me permettra de développer mes connaissances et mes compétences professionnelles essentielles à la programmation, la maintenance et à la création de site web. En passant aussi par l’apprentissage et l’approfondissement du web responsive et du développement d’application web.</p>
 
-				<p>Dans l’attente de vous rencontrer afin de vous présenter mes atouts pour intégrer votre entreprise je vous prie, Madame, Monsieur, de bien vouloir agréer mes salutations distinguées.</p>
+					<p>En parallèle, j’ai effectué des stages auprès de techniciens de réseau et dans la sécurité informatique qui m’ont permis de cultiver mon intérêt pour l’informatique. Durant mon parcours scolaire, j’ai pu me spécialiser en Informatique et sciences du numérique (ISN) où j’ai eu l’opportunité de présenter des sites web conçus par mon équipe et moi-même. Ces projets ont demandé beaucoup de rigueur pour être effectuer ce qui n’a pas était un problème pour moi.</p>
+
+		    </div>
+
+				<div id="d3">
+					<p>Curieux d’en apprendre plus sur ce métier, ma polyvalence et ma facilité de communication pourront m’aider à m’adapter dans l’entreprise. Je sais tenir compte des opinions et de la vision des autres, et je suis sensible à toutes les opportunités qui s’offrent à moi. Je suis parfaitement à l’aise et je prends du plaisir dans les travaux de groupe et je serai ravi de pouvoir travailler au sein d’une équipe.</p>
+
+					<p>Je vous remercie par avance de l’attention que vous porterez à mon profil et reste à votre disposition pour toutes informations complémentaires.</p>
+
+					<p>Dans l’attente de vous rencontrer afin de vous présenter mes atouts pour intégrer votre entreprise je vous prie, Madame, Monsieur, de bien vouloir agréer mes salutations distinguées.</p>
+				</div>
+
+<script>
+let togg1 = document.getElementById("togg1");
+let togg2 = document.getElementById("togg2");
+let togg3 = document.getElementById("togg3");
+let d1 = document.getElementById("d1");
+let d2 = document.getElementById("d2");
+let d3 = document.getElementById("d3");
+
+
+
+togg1.addEventListener("click", () => {
+  if(getComputedStyle(d1).display != "none"){
+    d1.style.display = "none";
+  } else {
+    d1.style.display = "block";
+  }
+})
+
+function togg(){
+  if(getComputedStyle(d2).display != "none"){
+    d2.style.display = "none";
+  } else {
+    d2.style.display = "block";
+  }
+};
+togg2.onclick = togg;
+
+function toggg(){
+  if(getComputedStyle(d3).display != "none"){
+    d3.style.display = "none";
+  } else {
+    d3.style.display = "block";
+  }
+};
+
+togg3.onclick = toggg;
+
+</script>
+<div id="infos_1" style="display:none;">
+	Les informations à insérer
+</div>
+
+
 			</ul>
 		</section>
 			<p class="blocktext">Nathan Chatard</p>
