@@ -58,44 +58,7 @@
 					<p>Dans l’attente de vous rencontrer afin de vous présenter mes atouts pour intégrer votre entreprise je vous prie, Madame, Monsieur, de bien vouloir agréer mes salutations distinguées.</p>
 				</div>
 
-<script>
-let togg1 = document.getElementById("togg1");
-let togg2 = document.getElementById("togg2");
-let togg3 = document.getElementById("togg3");
-let d1 = document.getElementById("d1");
-let d2 = document.getElementById("d2");
-let d3 = document.getElementById("d3");
-
-
-
-togg1.addEventListener("click", () => {
-  if(getComputedStyle(d1).display != "none"){
-    d1.style.display = "none";
-  } else {
-    d1.style.display = "block";
-  }
-})
-
-function togg(){
-  if(getComputedStyle(d2).display != "none"){
-    d2.style.display = "none";
-  } else {
-    d2.style.display = "block";
-  }
-};
-togg2.onclick = togg;
-
-function toggg(){
-  if(getComputedStyle(d3).display != "none"){
-    d3.style.display = "none";
-  } else {
-    d3.style.display = "block";
-  }
-};
-
-togg3.onclick = toggg;
-
-</script>
+<script src="script.js"></script>
 <div id="infos_1" style="display:none;">
 	Les informations à insérer
 </div>
