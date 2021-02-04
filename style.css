@@ -82,6 +82,15 @@ nav > ul li:hover .sous{
   content:"▼";
   font-size:12px;
 }
+.lien{
+text-decoration: underline dotted;
+text-align: center;
+}
+.lien:hover{
+font-weight: bold;
+text-shadow:0 0 2px purple,0 0 30px purple,5px 9px 5px #333, 0 0 150px purple;color:purple;
+color:purple;
+}
 #Présentation{
 margin-bottom:-3;
 margin:6%;
@@ -253,4 +262,13 @@ text-align: center;
 #d3{
   background-color: #67DD2542;
   display:none;
+}
+.lien{
+text-decoration: underline dotted;
+text-align: center;
+}
+.lien:hover{
+font-weight: bold;
+text-shadow:0 0 2px purple,0 0 30px purple,5px 9px 5px #333, 0 0 150px purple;color:purple;
+color:purple;
 }
